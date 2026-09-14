@@ -1,11 +1,25 @@
-node_modules/
-dist/
-build/
-.env
-*.log
-.DS_Store
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
-# Supabase local dev
-supabase/.branches/
-supabase/.temp/
-.ionic/
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
